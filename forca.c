@@ -152,7 +152,7 @@ int chuteserrados(){
 }
 int enforcou(){
 
-    return chuteserrados() >= 8;
+    return chuteserrados() >= 9;
 }
 
 int main() {
