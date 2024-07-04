@@ -53,8 +53,6 @@ void adicionapalavra(){ //abrindo pastas externas e adicionando coisas
         fseek(f, 0, SEEK_END);  //adicionando a nova palavra
         fprintf(f, "\n%s", novapalavra);
 
-        printf("O nome %s foi adicionado(a) com sucesso!", novapalavra);
-
         fclose(f);
     }
 }
