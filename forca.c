@@ -71,7 +71,7 @@ void escolhepalavra(){
     srand(time(0));
     int randomico = rand() % quantidadepalavras;
 
-    for (int i = 0; i < quantidadepalavras; i++){
+    for (int i = 0; i < randomico; i++){
         fscanf(f, "%s", palavrasecreta);
     }
     
