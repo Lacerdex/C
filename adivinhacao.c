@@ -130,5 +130,6 @@ int main() {
                 printf("\n\n");
                 printf("Voce perdeu! Tente novamente! <3\n");
                 printf("Fim de jogo!");
+                printf("O numero secreto era: %d!", numerosecreto);
             }
 }
